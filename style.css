@@ -1,0 +1,38 @@
+
+/* Geçiş efektleri */
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Başlık için kalın font */
+h1 {
+    font-weight: bold;
+}
+
+/* Sonuçları içeren kutular */
+.result-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Koyu Tema (Dark Mode) */
+.dark-mode {
+    background-color: #212529;
+    color: white;
+}
+
+.dark-mode .result-card {
+    background-color: #343a40;
+    color: white;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+}
+body {
+    background-image: url('https://t3.ftcdn.net/jpg/04/83/90/18/360_F_483901821_46VsNR67uJC3xIKQN4aaxR6GtAZhx9G8.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
